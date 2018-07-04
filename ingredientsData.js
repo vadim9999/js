@@ -1,68 +1,69 @@
+import departmentsData from './departmentsData';
 
 var ingredientsData     = [
   {
     name: "Asparagus",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Broccoli",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Carrots",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Cauliflower",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Celery",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Corn",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Cucumbers",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Lettuce / Greens",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Mushrooms",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Onions",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Peppers",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Potatoes",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Spinach",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Squash",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Zucchini",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
   {
     name: "Tomatoes*",
-    departmentId: "Fresh vegetables"
+    departmentId: departmentsData[0].name
   },
 
   /////

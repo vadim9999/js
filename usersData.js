@@ -1,4 +1,4 @@
-var userData     = [
+var usersData     = [
   {
     name: 'john',
     email: 'john.doe@ibm.com',
@@ -16,4 +16,4 @@ var userData     = [
   }
  ];
 
- export default userData;
+ export default usersData;

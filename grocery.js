@@ -1,16 +1,10 @@
 'use strict';
-
+import groceryAttributes from './groceryAttributes';
+import groceryData from './groceryData';
 const debug   = require('debug');
 const async   = require('async');
 
 let table_name = 'Grocery'
-
-let attributes  = [
-  'departmentIds', // #0
-  'groceryId',     // #1
-  'ingredientIds', // #2
-];
-
 
 
   // custom stuff, related only to grocery
@@ -22,16 +16,7 @@ let attributes  = [
 
 const get = () => {
 
-    var data     = [
-    	{
-				name : "Ultimate Grocery List",
-				img  : false,
-				desc : false,
-				slug : false //:todo do we need this fields?
-			}
-     ];
-
-  	return data;
+  	return groceryData;
 
 };
 
@@ -52,7 +37,7 @@ const relate = async (options, results, helper) => {
   }
 
   //@TODO create a method with foreach for each attribute in order to attach data to recipe
-  helper.attach( results.groceries, results.users, attributes[1]);
+  helper.attach( results.groceries, results.users, groceryAttributes[1]);
 
 };
 
